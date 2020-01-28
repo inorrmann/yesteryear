@@ -34,11 +34,11 @@ $('.scrolltop-mf').on("click", function() {
 })
 
 
-// Close menu when scroll is clicked
+// // Close menu when scroll is clicked
 
-$(".js-scroll").on("click", function () {
-    $(".navbar-collapse").collapse('hide');
-});
+// $(".js-scroll").on("click", function () {
+//     $(".navbar-collapse").collapse('hide');
+// });
 
 // Active scrollspy
 
@@ -78,30 +78,30 @@ if ($('.text-slider').length == 1) {
     });
 }
 
-// Animation
-progress = (percent, $el) => {
-    $el.css('visibility', 'visible');
-    let progressBarWidth = percent * el.width() / 100;
+// // Animation
+// progress = (percent, $el) => {
+//     $el.css('visibility', 'visible');
+//     let progressBarWidth = percent * el.width() / 100;
 
-    $el.find('div').animate({ width: progressBarWidth }, 500).html(percent + "%&nbsp;");
-}
+//     $el.find('div').animate({ width: progressBarWidth }, 500).html(percent + "%&nbsp;");
+// }
 
-let globalValues = 0;
+// let globalValues = 0;
 
-let animationProgressBar = () => {
-    if (globalValues < 100) {
-        // Makes sure the bars are visible
-        $("#progress-bar").show();
-        globalValues = globalValues + 4;
-        progress(globalValues, $('#progress-bar'));
-        setTimeout(animationProgressBar, 500);
-    } else {
-        alert("Done");
-        // Set progress to zero and then hide bar
-        globalValues = 0;
-        progress(globalValues, $('#progress-bar'));
-        $("#progress-bar").hide();
-    }
-}
+// let animationProgressBar = () => {
+//     if (globalValues < 100) {
+//         // Makes sure the bars are visible
+//         $("#progress-bar").show();
+//         globalValues = globalValues + 4;
+//         progress(globalValues, $('#progress-bar'));
+//         setTimeout(animationProgressBar, 500);
+//     } else {
+//         alert("Done");
+//         // Set progress to zero and then hide bar
+//         globalValues = 0;
+//         progress(globalValues, $('#progress-bar'));
+//         $("#progress-bar").hide();
+//     }
+// }
 
-animationProgressBar();
+// animationProgressBar();
