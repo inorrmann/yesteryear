@@ -665,53 +665,6 @@ body {
     margin-left: 10px;
   }
   
-  /* .skill-mf span {
-    color: #4e4e4e;
-  }
-  
-  .skill-mf .progress {
-    background-color: #cde1f8;
-    margin: .5rem 0 1.2rem 0;
-    border-radius: 0;
-    height: .7rem;
-  }
-  
-  .skill-mf .progress .progress-bar {
-    height: .7rem;
-    background-color: #0078ff;
-    /* visibility: hidden; */
-    /* animation: progress 3s ease-in-out forwards;
-    -webkit-animation: progress 3s ease-in-out forwards;
-  } */
-
-/* Animation for Progress Bar */
-/* @keyframes progress {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-@-webkit-keyframes progress {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-} */
-
-/* .progress-value {
-  background-color: #673ab7;
-  transition: 0.3s all linear;
-  border-radius: 1.25em;
-  height: 16px;
-  display: inline-block;
-  animation: progress 3s ease-in-out forwards;
-  -webkit-animation: progress 3s ease-in-out forwards;
-} */
 
 /* Portfolio */
   
@@ -740,9 +693,9 @@ body {
     padding: 2rem 3% 1rem 4%;
   }
   
-  .work-content .w-more {
+  .work-content, .w-more {
     color: #4e4e4e;
-    font-size: .8rem;
+    font-size: 1rem;
   }
   
   .work-content .w-more .w-ctegory {
@@ -785,41 +738,6 @@ body {
     margin-top: 4rem;
   }
   
-  /* Form */
-  
-/* #sendmessage {
-    color: #0078ff;
-    border: 1px solid #0078ff;
-    display: none;
-    text-align: center;
-    padding: 15px;
-    font-weight: 600;
-    margin-bottom: 15px;
-  }
-  
-  #errormessage {
-    color: red;
-    display: none;
-    border: 1px solid red;
-    text-align: center;
-    padding: 15px;
-    font-weight: 600;
-    margin-bottom: 15px;
-  }
-  
-  #sendmessage.show,
-  #errormessage.show,
-  .show {
-    display: block;
-  }
-  
-  .validation {
-    color: red;
-    display: none;
-    margin: 0 0 20px;
-    font-weight: 400;
-    font-size: 13px;
-  } */
   
 /* Button Plus Media Queries*/
 
