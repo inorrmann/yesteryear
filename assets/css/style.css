@@ -14,13 +14,13 @@ body {
   
   a {
     color: #1e1e1e;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.2s ease-in-out;
   }
   
-  a:hover {
+  a:hover, .live:hover {
     color: #F49431;
     text-decoration: none;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.2s ease-in-out;
   }
   
   .box-shadow,
@@ -79,7 +79,7 @@ body {
 
 /* Title A */
 .title-box {
-    margin-bottom: 4rem;
+    margin-bottom: 2.5rem;
   }
   
   .title-a {
@@ -423,7 +423,7 @@ body {
     transition: transform .35s ease-in-out, -webkit-transform .35s ease-in-out;
   }
   
-  .navbar-toggler:not(.collapsed) span:nth-child(1) {
+  /* .navbar-toggler:not(.collapsed) span:nth-child(1) {
     position: absolute;
     left: 12px;
     top: 10px;
@@ -445,7 +445,7 @@ body {
     -webkit-transform: rotate(-135deg);
     transform: rotate(-135deg);
     opacity: 0.9;
-  }
+  } */
 
 /* Intro */
 
@@ -525,7 +525,7 @@ body {
   }
   
   .w-title {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   .g-title {
@@ -583,7 +583,16 @@ body {
     .intro-single .intro-title {
       font-size: 3.5rem;
     }
+
+    /* .card {
+      width: 30%;
+    }
+    .card-row {
+      justify-content: center;
+
+    } */
   }
+
   
   @media (max-width: 1024px) {
     .bg-image {
@@ -595,4 +604,7 @@ body {
     .back-to-top {
       bottom: 15px;
     }
+    /* .card {
+      width: 100%;
+    } */
   }
