@@ -51,3 +51,7 @@ $(window).on('scroll', function() {
         $('.scrolltop-mf').fadeOut(1000, "easeInOutExpo");
     }
 });
+
+// Event Details Carousel
+var myCarousel = document.querySelector('#event-carousel')
+var carousel = new bootstrap.Carousel(myCarousel)
