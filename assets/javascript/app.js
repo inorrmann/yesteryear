@@ -28,7 +28,6 @@ $(window).scroll(function() {
 
 
 // Active scrollspy
-
 $('body').scrollspy({
     target: '#mainNav',
     offset: navHeight
@@ -53,14 +52,6 @@ $(window).on('scroll', function() {
     }
 });
 
-// Typed
-if ($('.text-slider').length == 1) {
-    let typed_strings = $('.text-slider-items').text();
-    let typed = new Typed('.text-slider', {
-        strings: typed_strings.split(','),
-        typeSpeed: 80,
-        loop: true,
-        backDelay: 1100,
-        backSpeed: 30
-    });
-}
+// Event Details Carousel
+var myCarousel = document.querySelector('#event-carousel')
+var carousel = new bootstrap.Carousel(myCarousel)
