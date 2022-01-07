@@ -423,7 +423,7 @@ i.fab, i.far {
 }
 
 .intro {
-  height: 200vh;
+  height: 277vh;
   position: relative;
   color: var(--white);
   background-color: rgba(18,16,17, 0.6)
@@ -446,8 +446,19 @@ i.fab, i.far {
   padding: 3rem 20rem 0;
 }
 
-.home.intro-subtitle {
-/*TODO make font bigger*/
+#home .intro-subtitle {
+  padding: 3rem 10rem 0;
+  font-size: 3rem;
+}
+
+#event .intro-title,
+#about .intro-title {
+  font-size: 3.5rem;
+}
+
+#event .intro-subtitle,
+#about .intro-subtitle {
+  padding-top: 1rem;
 }
 
 /* About Me */
