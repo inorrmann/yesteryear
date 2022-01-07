@@ -3,28 +3,25 @@
   /* colors */
   --white: #fff;
   --yellow: #E8C91A;
+  --light-yellow: #FFDD1C;
   --grey: #45454C;
   --light-grey: #7D7D8A;
+  --very-light-grey: #EBEFFF;
 }
 
 body {
   background-color: #f5f5f5;
-  /*color: #4e4e4e;*/
+  color: var(--white);
   font-family: 'Cardo', serif;
 }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
-    color: #1e1e1e;
-  }
+i {
+  color: var(--grey);
+}
 
-  a {
-    color: #1e1e1e;
-    transition: all 0.2s ease-in-out;
-  }
+a {
+  transition: all 0.2s ease-in-out;
+}
 
   a:hover, .live:hover {
     color: var(--yellow);
@@ -39,11 +36,11 @@ body {
 
   .box-shadow-a,
   .button:hover {
-    box-shadow: 0 0 0 4px #cde1f8;
+    box-shadow: 0 0 0 4px var(--very-light-grey);
   }
 
   .overlay-mf {
-    background-color: #779AA9;
+    background-color: var(--light-grey);
     position: absolute;
     top: 0;
     left: 0px;
@@ -87,7 +84,7 @@ body {
   .line-mf {
     width: 200px;
     height: 3px;
-    background-color: #779AA9;
+    background-color: var(--light-grey);
     margin: 0 auto;
   }
 
@@ -106,7 +103,7 @@ body {
     content: '';
     position: absolute;
     height: 3px;
-    background-color: #779AA9;
+    background-color: var(--light-grey);
     width: 100px;
     bottom: -12px;
   }
@@ -144,9 +141,9 @@ body {
   }
 
   .socials .ico-circle:hover {
-    background-color: var(--light-grey);
+    background-color: var(--very-light-grey);
     color: var(--white);
-    box-shadow: 0 0 0 3px #cde1f8;
+    box-shadow: 0 0 0 3px var(--light-grey);
     transition: all 500ms ease;
   }
 
@@ -160,7 +157,6 @@ body {
 }
 
 /* Icon Circle */
-
 .ico-circle {
   height: 100px;
   width: 100px;
@@ -169,7 +165,7 @@ body {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #456775;
+  box-shadow: 0 0 0 10px var(--light-grey);
   display: block;
 }
 
@@ -183,7 +179,7 @@ i.fab, i.far {
     position: fixed;
     display: none;
     background: var(--yellow);
-    color: var(--white);
+    color: var(--very-light-grey);
     width: 44px;
     height: 44px;
     text-align: center;
@@ -210,7 +206,7 @@ i.fab, i.far {
     bottom: 0;
     z-index: 9999;
     overflow: hidden;
-    background: var(--white);
+    background: var(--light-grey);
   }
 
   #preloader:before {
@@ -218,8 +214,8 @@ i.fab, i.far {
     position: fixed;
     top: calc(50% - 30px);
     left: calc(50% - 30px);
-    border: 6px solid #f2f2f2;
-    border-top: 6px solid #779AA9;
+    border: 6px solid var(--white);
+    border-top: 6px solid var(--yellow);
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -294,7 +290,7 @@ i.fab, i.far {
 
   .navbar-b.navbar-trans .nav-link:hover,
   .navbar-b.navbar-reduce .nav-link:hover {
-    color: #1B1B1B;
+    color: var(--grey);
   }
 
   .navbar-b.navbar-trans .nav-link:hover:before,
@@ -330,31 +326,31 @@ i.fab, i.far {
 
   .navbar-b.navbar-reduce {
     transition: all .5s ease-in-out;
-    background-color: #344A53;
+    background-color: var(--grey);
     padding: 15px 0;
   }
 
   .navbar-b.navbar-reduce .nav-link {
-    color: var(--light-grey);
+    color: var(--very-light-grey);
   }
 
   .navbar-b.navbar-reduce .nav-link:before {
-    background-color: #FFEACE;
+    background-color: var(--light-yellow);
   }
 
   .navbar-b.navbar-reduce .nav-link:hover {
-    color: #FFEACE;
+    color: var(--light-yellow);
   }
 
   .navbar-b.navbar-reduce .show > .nav-link,
   .navbar-b.navbar-reduce .active > .nav-link,
   .navbar-b.navbar-reduce .nav-link.show,
   .navbar-b.navbar-reduce .nav-link.active {
-    color: #FFEACE;
+    color: var(--light-yellow);
   }
 
   .navbar-b.navbar-reduce .navbar-toggler span {
-    background-color: #1B1B1B;
+    background-color: var(--grey);
   }
 
   .navbar-b .navbar-nav .dropdown-item.show .dropdown-menu,
@@ -461,16 +457,20 @@ i.fab, i.far {
 }
 
 .intro-title {
-  color: var(--white);
+  /*color: var(--white);*/
   text-shadow: 1px 1px 3px var(--yellow);
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 4.5rem;
 }
 
 .intro-subtitle {
-  color: var(--white);
-  font-size: 1.5rem;
-  font-weight: 30;
+  /*color: var(--white);*/
+  font-size: 2.5rem;
+  padding: 3rem 20rem 0;
+}
+
+.home.intro-subtitle {
+
 }
 
 /* About Me */
@@ -490,7 +490,7 @@ i.fab, i.far {
 
 /* Projects */
   .w-more {
-    color: #4e4e4e;
+    color: var(--grey);
     font-size: 1rem;
   }
 
@@ -540,14 +540,6 @@ i.fab, i.far {
     .navbar-b.navbar-trans .nav-link:before,
     .navbar-b.navbar-reduce .nav-link:before {
       margin-left: 18px;
-    }
-
-    .intro .intro-title {
-      font-size: 4.5rem;
-    }
-
-    .intro .intro-subtitle {
-      font-size: 2.5rem;
     }
   }
 
