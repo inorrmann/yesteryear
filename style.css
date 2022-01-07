@@ -391,7 +391,7 @@ i.fab, i.far {
 
 /* Intro */
 .slide-bg {
-  background-image: url("./yesterear/assets/images/home-bg-slide/bg-1.jpg");
+  background-image: url("./assets/images/home-bg-slide/bg-1.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -403,22 +403,22 @@ i.fab, i.far {
 
 @keyframes slideBg {
   0% {
-    background-image: url("./yesterear/assets/images/home-bg-slide/bg-1.jpg");
+    background-image: url("./assets/images/home-bg-slide/bg-1.jpg");
   }
   20% {
-    background-image: url("./yesterear/assets/images/home-bg-slide/bg-2.jpg");
+    background-image: url("./assets/images/home-bg-slide/bg-2.jpg");
   }
   40% {
-    background-image: url("./yesterear/assets/images/home-bg-slide/bg-3.jpg");
+    background-image: url("./assets/images/home-bg-slide/bg-3.jpg");
   }
   60% {
-    background-image: url("./yesterear/assets/images/home-bg-slide/bg-4.jpg");
+    background-image: url("./assets/images/home-bg-slide/bg-4.jpg");
   }
   80% {
-    background-image: url("./yesterear/assets/images/home-bg-slide/bg-5.jpg");
+    background-image: url("./assets/images/home-bg-slide/bg-5.jpg");
   }
   100% {
-    background-image: url("./yesterear/assets/images/home-bg-slide/bg-1.jpg");
+    background-image: url("./assets/images/home-bg-slide/bg-1.jpg");
   }
 }
 
