@@ -423,7 +423,7 @@ i.fab, i.far {
 }
 
 .intro {
-  height: 277vh;
+  height: 370vh;
   position: relative;
   color: var(--white);
   background-color: rgba(18,16,17, 0.6)
@@ -459,6 +459,13 @@ i.fab, i.far {
 #event .intro-subtitle,
 #about .intro-subtitle {
   padding-top: 1rem;
+}
+
+
+
+/* Event Details Carousel */
+#event-carousel {
+  margin: 20rem 20rem 0;
 }
 
 /* About Me */
