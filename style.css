@@ -414,7 +414,7 @@ button i.fa-bars {
 }
 
 .intro {
-  height: 420vh;
+  height: 380vh;
   position: relative;
   color: var(--white);
   background-color: rgba(18,16,17, 0.6)
@@ -422,8 +422,7 @@ button i.fa-bars {
 
 .intro-content {
   text-align: center;
-  padding: 23rem 0;
-  margin-bottom: 3rem;
+  padding: 10rem 0 0;
 }
 
 .intro-title {
@@ -433,23 +432,36 @@ button i.fa-bars {
 }
 
 .intro-subtitle {
-  font-size: 2.5rem;
-  padding: 3rem 20rem 0;
+  font-size: 1.5rem;
+  padding: 2rem 1rem;
 }
 
 #home .intro-subtitle {
-  padding: 2rem;
-  font-size: 4rem;
+  padding: 1rem;
+  font-size: 2rem;
 }
 
 #event .intro-title,
 #about .intro-title {
-  font-size: 3.5rem;
+  font-size: 2.25rem;
 }
 
-#event .intro-subtitle,
 #about .intro-subtitle {
   padding-top: 1rem;
+}
+
+#event-carousel {
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3), 0 2px 5px 0 rgba(0, 0, 0, 0.6);
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+.carousel-caption {
+  display: block !important;
+  text-shadow: 1px 1px 3px var(--grey);
+  bottom: 0px;
 }
 
 @media (min-width: 768px) {
@@ -484,6 +496,21 @@ button i.fa-bars {
   #event .intro-subtitle,
   #about .intro-subtitle {
     padding-top: 1rem;
+  }
+
+  #event-carousel {
+    margin: 20rem 20rem 0;
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+
+  .carousel-caption {
+    display: block !important;
+    text-shadow: 1px 1px 3px var(--grey);
+    bottom: 0px;
+    bottom: 20px;
   }
 }
 
@@ -520,6 +547,20 @@ button i.fa-bars {
   #about .intro-subtitle {
     padding-top: 1rem;
   }
+
+  #event-carousel {
+    margin: 20rem 20rem 0;
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+
+  .carousel-caption {
+    display: block !important;
+    text-shadow: 1px 1px 3px var(--grey);
+    bottom: 0px;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -555,18 +596,37 @@ button i.fa-bars {
   #about .intro-subtitle {
     padding-top: 1rem;
   }
-}
 
-/* Event Details Carousel */
-#event-carousel {
-  margin: 20rem 20rem 0;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3), 0 2px 5px 0 rgba(0, 0, 0, 0.6);
+  #event-carousel {
+    margin: 20rem 20rem 0;
+  }
 }
 
 /* Packages */
 #packages {
   color: var(--grey);
   margin: 5rem 0;
+}
+
+#packages-desktop {
+  display: none;
+}
+
+#packages-mobile {
+  display: block;
+}
+
+#packages-mobile h1 {
+  text-align: center;
+}
+
+#packages-mobile .package-card {
+  margin: 1rem;
+}
+
+#packages-mobile .porta-potty-disclaimer {
+  margin: 1rem;
+  text-align: center;
 }
 
 .package-card {
@@ -592,9 +652,141 @@ button i.fa-bars {
   color: var(--grey);
 }
 
-#porta-potty-disclaimer {
-  font-size: 0.8rem;
+@media (min-width: 768px) {
+  #packages {
+    color: var(--grey);
+    margin: 5rem 0;
+  }
+
+  #packages-desktop {
+    display: none;
+  }
+
+  #packages-mobile {
+    display: block;
+  }
+
+  .package-card {
+    height: 100%;
+  }
+
+  .about-mf .box-shadow-full {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .about-mf .about-img {
+    margin-bottom: 2rem;
+  }
+
+  .about-mf .about-img img {
+    margin-left: 10px;
+  }
+
+  .registration-link {
+    margin: 1.25rem;
+    background-color: var(--yellow);
+    color: var(--grey);
+  }
+
+  .porta-potty-disclaimer {
+    font-size: 0.8rem;
+
+
+  }
+
 }
+
+@media (min-width: 1064px) {
+  #packages {
+    color: var(--grey);
+    margin: 5rem 0;
+  }
+
+  #packages-desktop {
+    display: none;
+  }
+
+  #packages-mobile {
+    display: block;
+  }
+
+  .package-card {
+    height: 100%;
+  }
+
+  .about-mf .box-shadow-full {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .about-mf .about-img {
+    margin-bottom: 2rem;
+  }
+
+  .about-mf .about-img img {
+    margin-left: 10px;
+  }
+
+  .registration-link {
+    margin: 1.25rem;
+    background-color: var(--yellow);
+    color: var(--grey);
+  }
+
+  .porta-potty-disclaimer {
+    font-size: 0.8rem;
+
+
+  }
+
+}
+
+@media (min-width: 1440px) {
+  #packages {
+    color: var(--grey);
+    margin: 5rem 0;
+  }
+
+  #packages-desktop {
+    display: none;
+  }
+
+  #packages-mobile {
+    display: block;
+  }
+
+  .package-card {
+    height: 100%;
+  }
+
+  .about-mf .box-shadow-full {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .about-mf .about-img {
+    margin-bottom: 2rem;
+  }
+
+  .about-mf .about-img img {
+    margin-left: 10px;
+  }
+
+  .registration-link {
+    margin: 1.25rem;
+    background-color: var(--yellow);
+    color: var(--grey);
+  }
+
+  .porta-potty-disclaimer {
+    font-size: 0.8rem;
+
+
+  }
+
+}
+
 
 /* Vendors */
 #vendors {
@@ -645,7 +837,7 @@ button i.fa-bars {
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1064px) {
 
 }
 
@@ -656,15 +848,11 @@ button i.fa-bars {
 
 
 /* Media Queries Template */
-@media (max-width: 767px) {
-
-}
-
 @media (min-width: 768px) {
 
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1064px) {
 
 }
 
