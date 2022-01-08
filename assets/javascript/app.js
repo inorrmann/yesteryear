@@ -2,11 +2,11 @@
 var nav = $("nav");
 var navHeight = nav.outerHeight();
 
-$(".navbar-toggler").on("click", function() {
-    if (! $('#mainNav').hasClass('navbar-reduce')) {
-        $("#mainNav").addClass('navbar-reduce');
-    }
-});
+// $(".navbar-toggler").on("click", function() {
+//     if (! $('#mainNav').hasClass('navbar-reduce')) {
+//         $("#mainNav").addClass('navbar-reduce');
+//     }
+// });
 
 // Preloader
 $(window).on("load", function() {
@@ -25,7 +25,6 @@ $(window).scroll(function() {
         $('.back-to-top').fadeOut('slow');
     }
 });
-
 
 // Active scrollspy
 $('body').scrollspy({
@@ -51,7 +50,3 @@ $(window).on('scroll', function() {
         $('.scrolltop-mf').fadeOut(1000, "easeInOutExpo");
     }
 });
-
-// Event Details Carousel
-var myCarousel = document.querySelector('#event-carousel')
-var carousel = new bootstrap.Carousel(myCarousel)

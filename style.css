@@ -2,6 +2,7 @@
 :root {
   /* colors */
   --white: #fff;
+  --off-white: #f5f5f5;
   --yellow: #E8C91A;
   --light-yellow: #FFDD1C;
   --grey: #45454C;
@@ -10,7 +11,7 @@
 }
 
 body {
-  background-color: #f5f5f5;
+  background-color: var(--off-white);
   color: var(--white);
   font-family: 'Cardo', serif;
 }
@@ -41,7 +42,7 @@ a:hover, .live:hover {
 
 .paralax-mf {
   position: relative;
-  padding: 8rem 0;
+  /*padding: 8rem 0;*/
 }
 
 
@@ -205,10 +206,24 @@ i.fab, i.far {
   max-height: 5rem;
 }
 
+button i.fa-bars {
+  color: var(--white);
+  font-size: 3rem;
+}
+
+.navbar {
+  padding: 0;
+}
+
+@media (min-width: 1064px) {
+  .navbar {
+    padding: 0 3rem;
+  }
+}
+
 .navbar-b {
   transition: all .5s ease-in-out;
   background-color: rgba(18,16,17, 0.6);
-  padding: 0 !important;
 }
 
 .navbar-b.navbar-reduce {
@@ -277,7 +292,6 @@ i.fab, i.far {
 .navbar-b.navbar-reduce {
   transition: all .5s ease-in-out;
   background-color: var(--grey);
-  padding: 15px 0;
 }
 
 .navbar-b.navbar-reduce .nav-link {
@@ -408,14 +422,14 @@ i.fab, i.far {
 
 .intro-content {
   text-align: center;
-  padding-top: 23rem;
+  padding: 23rem 0;
   margin-bottom: 3rem;
 }
 
 .intro-title {
   text-shadow: 1px 1px 3px var(--yellow);
   font-weight: 600;
-  font-size: 4.5rem;
+  font-size: 2.5rem;
 }
 
 .intro-subtitle {
@@ -424,8 +438,8 @@ i.fab, i.far {
 }
 
 #home .intro-subtitle {
-  padding: 3rem 10rem 0;
-  font-size: 3rem;
+  padding: 2rem;
+  font-size: 4rem;
 }
 
 #event .intro-title,
@@ -436,6 +450,111 @@ i.fab, i.far {
 #event .intro-subtitle,
 #about .intro-subtitle {
   padding-top: 1rem;
+}
+
+@media (min-width: 768px) {
+  .intro {
+    height: 420vh;
+  }
+
+  .intro-content {
+    padding: 23rem 0 0;
+    margin-bottom: 3rem;
+  }
+
+  .intro-title {
+    font-size: 4.5rem;
+  }
+
+  .intro-subtitle {
+    font-size: 2.5rem;
+    padding: 3rem 20rem 0;
+  }
+
+  #home .intro-subtitle {
+    padding: 3rem 10rem 0;
+    font-size: 3rem;
+  }
+
+  #event .intro-title,
+  #about .intro-title {
+    font-size: 3.5rem;
+  }
+
+  #event .intro-subtitle,
+  #about .intro-subtitle {
+    padding-top: 1rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .intro {
+    height: 420vh;
+  }
+
+  .intro-content {
+    padding: 23rem 0 0;
+    margin-bottom: 3rem;
+  }
+
+  .intro-title {
+    font-size: 4.5rem;
+  }
+
+  .intro-subtitle {
+    font-size: 2.5rem;
+    padding: 3rem 20rem 0;
+  }
+
+  #home .intro-subtitle {
+    padding: 3rem 10rem 0;
+    font-size: 3rem;
+  }
+
+  #event .intro-title,
+  #about .intro-title {
+    font-size: 3.5rem;
+  }
+
+  #event .intro-subtitle,
+  #about .intro-subtitle {
+    padding-top: 1rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .intro {
+    height: 420vh;
+  }
+
+  .intro-content {
+    padding: 23rem 0 0;
+    margin-bottom: 3rem;
+  }
+
+  .intro-title {
+    font-size: 4.5rem;
+  }
+
+  .intro-subtitle {
+    font-size: 2.5rem;
+    padding: 3rem 20rem 0;
+  }
+
+  #home .intro-subtitle {
+    padding: 3rem 10rem 0;
+    font-size: 3rem;
+  }
+
+  #event .intro-title,
+  #about .intro-title {
+    font-size: 3.5rem;
+  }
+
+  #event .intro-subtitle,
+  #about .intro-subtitle {
+    padding-top: 1rem;
+  }
 }
 
 /* Event Details Carousel */
@@ -493,8 +612,14 @@ i.fab, i.far {
   margin-top: 4rem;
 }
 
-/* Button Plus Media Queries*/
-@media (min-width: 767px) {
+/* Media Queries*/
+@media (max-width: 767px) {
+  .back-to-top {
+    bottom: 15px;
+  }
+}
+
+@media (min-width: 768px) {
   .about-mf .box-pl2 {
     margin-top: 3rem;
     padding-left: 0rem;
@@ -504,9 +629,7 @@ i.fab, i.far {
     margin-top: 3rem;
     padding-left: 0rem;
   }
-}
 
-@media (min-width: 768px) {
   .box-shadow-full {
     padding: 3rem;
   }
@@ -522,14 +645,29 @@ i.fab, i.far {
   }
 }
 
-@media (max-width: 1024px) {
-  .bg-image {
-    background-attachment: scroll;
-  }
+@media (min-width: 1000px) {
+
 }
 
-@media (max-width: 768px) {
-  .back-to-top {
-    bottom: 15px;
-  }
+@media (min-width: 1440px) {
+
+}
+
+
+
+/* Media Queries Template */
+@media (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1000px) {
+
+}
+
+@media (min-width: 1440px) {
+
 }
