@@ -400,7 +400,7 @@ i.fab, i.far {
 }
 
 .intro {
-  height: 370vh;
+  height: 420vh;
   position: relative;
   color: var(--white);
   background-color: rgba(18,16,17, 0.6)
