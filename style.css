@@ -397,7 +397,7 @@ i.fab, i.far {
   background-size: cover;
   background-position: center center;
   backface-visibility: hidden;
-  animation: slideBg 30s linear infinite 0s;
+  animation: slideBg 60s linear infinite 0s;
   animation-timing-function: ease-in-out;
 }
 
@@ -475,9 +475,19 @@ i.fab, i.far {
 /* Event Details Carousel */
 #event-carousel {
   margin: 20rem 20rem 0;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3), 0 2px 5px 0 rgba(0, 0, 0, 0.6);
 }
 
-/* About Me */
+/* Packages */
+#packages {
+  color: var(--grey);
+  margin: 5rem 0;
+}
+
+.package-card {
+  height: 100%;
+}
+
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -489,6 +499,13 @@ i.fab, i.far {
 
 .about-mf .about-img img {
   margin-left: 10px;
+}
+
+.registration-link {
+  /*position: absolute;*/
+  margin: 1.25rem;
+  background-color: var(--yellow);
+  color: var(--grey);
 }
 
 
