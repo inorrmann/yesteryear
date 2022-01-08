@@ -405,17 +405,26 @@ i.fab, i.far {
   0% {
     background-image: url("./assets/images/home-bg-slide/bg-1.jpg");
   }
-  20% {
+  12.5% {
     background-image: url("./assets/images/home-bg-slide/bg-2.jpg");
   }
-  40% {
+  25% {
     background-image: url("./assets/images/home-bg-slide/bg-3.jpg");
   }
-  60% {
+  37.5% {
     background-image: url("./assets/images/home-bg-slide/bg-4.jpg");
   }
-  80% {
+  50% {
     background-image: url("./assets/images/home-bg-slide/bg-5.jpg");
+  }
+  62.5% {
+    background-image: url("./assets/images/home-bg-slide/bg-6.jpg");
+  }
+  75% {
+    background-image: url("./assets/images/home-bg-slide/bg-7.jpg");
+  }
+  87.5% {
+    background-image: url("./assets/images/home-bg-slide/bg-8.jpg");
   }
   100% {
     background-image: url("./assets/images/home-bg-slide/bg-1.jpg");
