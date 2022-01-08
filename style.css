@@ -323,6 +323,10 @@ button i.fa-bars {
   visibility: visible !important;
 }
 
+.navbar-nav {
+  padding-left: 15px;
+}
+
 .navbar-b .dropdown-menu {
   margin: 1.12rem 0 0;
   border-radius: 0;
@@ -415,7 +419,7 @@ button i.fa-bars {
 }
 
 .intro {
-  height: 380vh;
+  height: 145rem;
   position: relative;
   color: var(--white);
   background-color: rgba(18,16,17, 0.6)
@@ -465,33 +469,9 @@ button i.fa-bars {
   bottom: 0px;
 }
 
-@media (min-width: 375px) {
-  .intro {
-    height: 310vh;
-  }
-}
-
-@media (min-width: 414px) {
-  .intro {
-    height: 275vh;
-  }
-}
-
-@media (min-width: 450px) {
-  .intro {
-    height: 215vh;
-  }
-}
-
 @media (min-width: 768px) {
   .intro {
-    height: 420vh;
-  }
-}
-
-@media (min-width: 768px) {
-  .intro {
-    height: 345vh;
+    height: 215rem;
   }
 
   .intro-content {
@@ -531,10 +511,6 @@ button i.fa-bars {
 }
 
 @media (min-width: 1064px) {
-  .intro {
-    height: 360vh;
-  }
-
   .intro-content {
     padding: 23rem 0 0;
   }
@@ -563,10 +539,6 @@ button i.fa-bars {
 }
 
 @media (min-width: 1440px) {
-  .intro {
-    height: 380vh;
-  }
-
   .intro-subtitle {
     padding: 3rem 10rem 0;
   }
