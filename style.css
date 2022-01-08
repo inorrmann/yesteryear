@@ -464,14 +464,37 @@ button i.fa-bars {
   bottom: 0px;
 }
 
+@media (min-width: 375px) {
+  .intro {
+    height: 310vh;
+  }
+}
+
+@media (min-width: 414px) {
+  .intro {
+    height: 275vh;
+  }
+}
+
+@media (min-width: 450px) {
+  .intro {
+    height: 215vh;
+  }
+}
+
 @media (min-width: 768px) {
   .intro {
     height: 420vh;
   }
+}
+
+@media (min-width: 768px) {
+  .intro {
+    height: 345vh;
+  }
 
   .intro-content {
-    padding: 23rem 0 0;
-    margin-bottom: 3rem;
+    padding: 20rem 0 0;
   }
 
   .intro-title {
@@ -480,7 +503,7 @@ button i.fa-bars {
 
   .intro-subtitle {
     font-size: 2.5rem;
-    padding: 3rem 20rem 0;
+    padding: 4rem 3rem 0;
   }
 
   #home .intro-subtitle {
@@ -493,54 +516,35 @@ button i.fa-bars {
     font-size: 3.5rem;
   }
 
-  #event .intro-subtitle,
   #about .intro-subtitle {
     padding-top: 1rem;
   }
 
   #event-carousel {
-    margin: 20rem 20rem 0;
+    margin: 5rem 2rem 0;
   }
 
   .carousel-indicators {
-    display: none;
-  }
-
-  .carousel-caption {
-    display: block !important;
-    text-shadow: 1px 1px 3px var(--grey);
-    bottom: 0px;
-    bottom: 20px;
+    display: flex;
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1064px) {
   .intro {
-    height: 420vh;
+    height: 360vh;
   }
 
   .intro-content {
     padding: 23rem 0 0;
-    margin-bottom: 3rem;
   }
 
   .intro-title {
     font-size: 4.5rem;
   }
 
-  .intro-subtitle {
-    font-size: 2.5rem;
-    padding: 3rem 20rem 0;
-  }
-
+  .intro-subtitle,
   #home .intro-subtitle {
-    padding: 3rem 10rem 0;
-    font-size: 3rem;
-  }
-
-  #event .intro-title,
-  #about .intro-title {
-    font-size: 3.5rem;
+    padding: 3rem 5rem 0;
   }
 
   #event .intro-subtitle,
@@ -549,17 +553,11 @@ button i.fa-bars {
   }
 
   #event-carousel {
-    margin: 20rem 20rem 0;
-  }
-
-  .carousel-indicators {
-    display: none;
+    margin: 5rem 10rem 0;
   }
 
   .carousel-caption {
-    display: block !important;
-    text-shadow: 1px 1px 3px var(--grey);
-    bottom: 0px;
+    bottom: 20px;
   }
 }
 
@@ -608,7 +606,8 @@ button i.fa-bars {
   margin: 5rem 0;
 }
 
-#packages-desktop {
+#packages-desktop,
+#packages-tablet {
   display: none;
 }
 
@@ -653,93 +652,31 @@ button i.fa-bars {
 }
 
 @media (min-width: 768px) {
-  #packages {
-    color: var(--grey);
-    margin: 5rem 0;
-  }
-
-  #packages-desktop {
-    display: none;
-  }
-
-  #packages-mobile {
+  #packages-tablet {
     display: block;
   }
 
-  .package-card {
-    height: 100%;
+  #packages-mobile {
+    display: none;
   }
-
-  .about-mf .box-shadow-full {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
-
-  .about-mf .about-img {
-    margin-bottom: 2rem;
-  }
-
-  .about-mf .about-img img {
-    margin-left: 10px;
-  }
-
-  .registration-link {
-    margin: 1.25rem;
-    background-color: var(--yellow);
-    color: var(--grey);
-  }
-
-  .porta-potty-disclaimer {
-    font-size: 0.8rem;
-
-
-  }
-
 }
 
 @media (min-width: 1064px) {
   #packages {
-    color: var(--grey);
     margin: 5rem 0;
   }
 
   #packages-desktop {
-    display: none;
-  }
-
-  #packages-mobile {
     display: block;
   }
 
-  .package-card {
-    height: 100%;
-  }
-
-  .about-mf .box-shadow-full {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
-
-  .about-mf .about-img {
-    margin-bottom: 2rem;
-  }
-
-  .about-mf .about-img img {
-    margin-left: 10px;
-  }
-
-  .registration-link {
-    margin: 1.25rem;
-    background-color: var(--yellow);
-    color: var(--grey);
+  #packages-tablet {
+    display: none;
   }
 
   .porta-potty-disclaimer {
     font-size: 0.8rem;
-
-
   }
-
 }
 
 @media (min-width: 1440px) {
@@ -747,52 +684,34 @@ button i.fa-bars {
     color: var(--grey);
     margin: 5rem 0;
   }
-
-  #packages-desktop {
-    display: none;
-  }
-
-  #packages-mobile {
-    display: block;
-  }
-
-  .package-card {
-    height: 100%;
-  }
-
-  .about-mf .box-shadow-full {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
-
-  .about-mf .about-img {
-    margin-bottom: 2rem;
-  }
-
-  .about-mf .about-img img {
-    margin-left: 10px;
-  }
-
-  .registration-link {
-    margin: 1.25rem;
-    background-color: var(--yellow);
-    color: var(--grey);
-  }
-
-  .porta-potty-disclaimer {
-    font-size: 0.8rem;
-
-
-  }
-
 }
 
 
 /* Vendors */
 #vendors {
   color: var(--grey);
-  font-size: 2.5rem;
-  padding: 20rem 0;
+  font-size: 2rem;
+  padding: 8rem 1rem;
+}
+
+@media (min-width: 768px) {
+  #vendors {
+    padding: 15rem 1rem;
+  }
+}
+
+@media (min-width: 1064px) {
+  #vendors {
+    font-size: 2.5rem;
+    padding: 20rem 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  #vendors {
+    font-size: 2.5rem;
+    padding: 20rem 0;
+  }
 }
 
 /* Contact */
