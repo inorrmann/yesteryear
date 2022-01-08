@@ -14,6 +14,7 @@ body {
   background-color: var(--off-white);
   color: var(--white);
   font-family: 'Cardo', serif;
+  overflow-x: hidden;
 }
 
 i {
