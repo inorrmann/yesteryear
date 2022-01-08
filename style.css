@@ -563,40 +563,11 @@ button i.fa-bars {
 
 @media (min-width: 1440px) {
   .intro {
-    height: 420vh;
-  }
-
-  .intro-content {
-    padding: 23rem 0 0;
-    margin-bottom: 3rem;
-  }
-
-  .intro-title {
-    font-size: 4.5rem;
+    height: 380vh;
   }
 
   .intro-subtitle {
-    font-size: 2.5rem;
-    padding: 3rem 20rem 0;
-  }
-
-  #home .intro-subtitle {
     padding: 3rem 10rem 0;
-    font-size: 3rem;
-  }
-
-  #event .intro-title,
-  #about .intro-title {
-    font-size: 3.5rem;
-  }
-
-  #event .intro-subtitle,
-  #about .intro-subtitle {
-    padding-top: 1rem;
-  }
-
-  #event-carousel {
-    margin: 20rem 20rem 0;
   }
 }
 
@@ -679,14 +650,6 @@ button i.fa-bars {
   }
 }
 
-@media (min-width: 1440px) {
-  #packages {
-    color: var(--grey);
-    margin: 5rem 0;
-  }
-}
-
-
 /* Vendors */
 #vendors {
   color: var(--grey);
@@ -701,13 +664,6 @@ button i.fa-bars {
 }
 
 @media (min-width: 1064px) {
-  #vendors {
-    font-size: 2.5rem;
-    padding: 20rem 0;
-  }
-}
-
-@media (min-width: 1440px) {
   #vendors {
     font-size: 2.5rem;
     padding: 20rem 0;
@@ -754,27 +710,4 @@ button i.fa-bars {
   .navbar-b.navbar-reduce .nav-link:before {
     margin-left: 18px;
   }
-}
-
-@media (min-width: 1064px) {
-
-}
-
-@media (min-width: 1440px) {
-
-}
-
-
-
-/* Media Queries Template */
-@media (min-width: 768px) {
-
-}
-
-@media (min-width: 1064px) {
-
-}
-
-@media (min-width: 1440px) {
-
 }
