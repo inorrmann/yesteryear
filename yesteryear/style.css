@@ -108,8 +108,7 @@ a:hover, .live:hover {
 }
 
 /* Ul resect */
-.socials ul,
-.box-comments .list-comments {
+.socials ul {
   list-style: none;
   padding-left: 0;
   margin-bottom: 0;

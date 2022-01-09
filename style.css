@@ -47,35 +47,6 @@ a:hover, .live:hover {
 }
 
 
-/* Title Left */
-.title-box-2 {
-    margin-bottom: 3rem;
-}
-
-.title-left {
-    font-size: 2rem;
-    position: relative;
-}
-
-.title-left:before {
-    content: '';
-    position: absolute;
-    height: 3px;
-    background-color: var(--light-grey);
-    width: 100px;
-    bottom: -12px;
-}
-
-/* Box */
-.box-shadow-full {
-    padding: 3rem 1.25rem;
-    position: relative;
-    background-color: var(--white);
-    margin-bottom: 3rem;
-    z-index: 2;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
-}
-
 /* Contact Us */
 #contact {
     background-color: var(--light-grey);
@@ -108,8 +79,7 @@ a:hover, .live:hover {
 }
 
 /* Ul resect */
-.socials ul,
-.box-comments .list-comments {
+.socials ul {
     list-style: none;
     padding-left: 0;
     margin-bottom: 0;
@@ -544,35 +514,35 @@ button i.fa-bars {
     }
 }
 
-/* Packages */
-#packages {
+/* logos */
+#logos {
     color: var(--grey);
     margin: 5rem 0;
 }
 
-#packages-desktop,
-#packages-tablet {
+#logos-desktop,
+#logos-tablet {
     display: none;
 }
 
-#packages-mobile {
+#logos-mobile {
     display: block;
 }
 
-#packages-mobile h1 {
+#logos-mobile h1 {
     text-align: center;
 }
 
-#packages-mobile .package-card {
+#logos-mobile .logo-card {
     margin: 1rem;
 }
 
-#packages-mobile .porta-potty-disclaimer {
+#logos-mobile .porta-potty-disclaimer {
     margin: 1rem;
     text-align: center;
 }
 
-.package-card {
+.logo-card {
     height: 100%;
 }
 
@@ -596,50 +566,30 @@ button i.fa-bars {
 }
 
 @media (min-width: 768px) {
-    #packages-tablet {
+    #logos-tablet {
         display: block;
     }
 
-    #packages-mobile {
+    #logos-mobile {
         display: none;
     }
 }
 
 @media (min-width: 1064px) {
-    #packages {
+    #logos {
         margin: 5rem 0;
     }
 
-    #packages-desktop {
+    #logos-desktop {
         display: block;
     }
 
-    #packages-tablet {
+    #logos-tablet {
         display: none;
     }
 
     .porta-potty-disclaimer {
         font-size: 0.8rem;
-    }
-}
-
-/* Vendors */
-#vendors {
-    color: var(--grey);
-    font-size: 2rem;
-    padding: 8rem 1rem;
-}
-
-@media (min-width: 768px) {
-    #vendors {
-        padding: 15rem 1rem;
-    }
-}
-
-@media (min-width: 1064px) {
-    #vendors {
-        font-size: 2.5rem;
-        padding: 20rem 0;
     }
 }
 
