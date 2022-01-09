@@ -131,6 +131,14 @@ i.fab, i.far {
   vertical-align: middle;
 }
 
+.footer-paralax {
+  padding: 0;
+}
+
+.contact-mf {
+  margin-top: 4rem;
+}
+
 /* Back to Top */
 .back-to-top {
   position: fixed;
@@ -640,15 +648,6 @@ button i.fa-bars {
     font-size: 2.5rem;
     padding: 20rem 0;
   }
-}
-
-/* Contact */
-.footer-paralax {
-  padding: 0;
-}
-
-.contact-mf {
-  margin-top: 4rem;
 }
 
 /* Media Queries*/
