@@ -482,7 +482,7 @@ button i.fa-bars {
   }
 
   .intro-content {
-    padding: 20rem 0 0;
+    padding: 18rem 0 0;
   }
 
   .intro-title {
@@ -518,10 +518,6 @@ button i.fa-bars {
 }
 
 @media (min-width: 1064px) {
-  .intro-content {
-    padding: 23rem 0 0;
-  }
-
   .intro-title {
     font-size: 4.5rem;
   }
@@ -548,6 +544,10 @@ button i.fa-bars {
 @media (min-width: 1440px) {
   .intro-subtitle {
     padding: 3rem 10rem 0;
+  }
+
+  #event-carousel {
+    margin: 5rem 20rem 0;
   }
 }
 
