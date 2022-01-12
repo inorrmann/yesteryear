@@ -443,6 +443,10 @@ button i.fa-bars {
   font-size: 2.5rem;
 }
 
+.intro-title.location {
+  font-size: 1.5rem;
+}
+
 .intro-subtitle {
   font-size: 1.5rem;
   padding: 2rem 1rem;
@@ -482,11 +486,15 @@ button i.fa-bars {
   }
 
   .intro-content {
-    padding: 18rem 0 0;
+    padding: 15rem 0 0;
   }
 
   .intro-title {
     font-size: 4.5rem;
+  }
+
+  .intro-title.location {
+    font-size: 2.5rem;
   }
 
   .intro-subtitle {
