@@ -8,6 +8,8 @@
   --grey: #45454C;
   --light-grey: #7D7D8A;
   --very-light-grey: #EBEFFF;
+  --red: #FF4A27;
+  --maroon: #40130A;
 }
 
 body {
@@ -610,6 +612,17 @@ button i.fa-bars {
   color: var(--grey);
 }
 
+.countdown {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: var(--red);
+  border-radius: 10px;
+  padding: 7px;
+  width: 80%;
+  margin: auto;
+  color: var(--maroon);
+}
+
 @media (min-width: 768px) {
   #packages-tablet {
     display: block;
@@ -691,10 +704,31 @@ button i.fa-bars {
   }
 }
 
+/* rules.html */
+.second-page {
+  color: var(--grey);
+}
+
+/* RULES */
+#rules {
+  padding: 10rem 5rem;
+}
+
+.rule-section {
+  text-align: left;
+  padding: 4rem 2rem 0;
+  font-size: 1.75rem;
+}
+
+#rules ol {
+  text-align: left;
+  font-size: 1.375rem;
+}
+
 /* COVID Protocol */
 #covid {
-  color: var(--grey);
   padding-bottom: 6rem;
+  padding-top: 10rem;
 }
 
 #covid .intro-subtitle {
