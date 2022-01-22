@@ -571,6 +571,10 @@ button i.fa-bars {
     padding: 3rem 10rem 0;
   }
 
+  #rules {
+    padding-top: 10rem;
+  }
+
   #event-carousel {
     margin: 5rem 20rem 0;
   }
