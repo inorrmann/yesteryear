@@ -449,9 +449,14 @@ button i.fa-bars {
   font-size: 1.5rem;
 }
 
-.intro-subtitle {
+.intro-subtitle,
+#rules {
   font-size: 1.5rem;
   padding: 2rem 1rem;
+}
+
+#rules {
+  padding-top: 5rem;
 }
 
 #home .intro-subtitle {
@@ -499,9 +504,14 @@ button i.fa-bars {
     font-size: 2.5rem;
   }
 
-  .intro-subtitle {
+  .intro-subtitle,
+  #rules {
     font-size: 2.5rem;
     padding: 4rem 3rem 0;
+  }
+
+  #rules {
+    padding-top: 6rem;
   }
 
   #home .intro-subtitle {
@@ -533,8 +543,13 @@ button i.fa-bars {
   }
 
   .intro-subtitle,
-  #home .intro-subtitle {
+  #home .intro-subtitle,
+  #rules {
     padding: 3rem 5rem 0;
+  }
+
+  #rules {
+    padding-top: 10rem;
   }
 
   #event .intro-subtitle,
@@ -552,7 +567,7 @@ button i.fa-bars {
 }
 
 @media (min-width: 1440px) {
-  .intro-subtitle {
+  .intro-subtitle, #rules {
     padding: 3rem 10rem 0;
   }
 
@@ -710,10 +725,6 @@ button i.fa-bars {
 }
 
 /* RULES */
-#rules {
-  padding: 10rem 5rem;
-}
-
 .rule-section {
   text-align: left;
   padding: 4rem 2rem 0;
