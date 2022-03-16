@@ -631,6 +631,12 @@ button i.fa-bars {
   color: var(--grey);
 }
 
+a.disabled {
+  background-color: var(--very-light-grey);
+  pointer-events: none;
+  cursor: default;
+}
+
 .countdown {
   text-align: center;
   text-transform: uppercase;
