@@ -745,14 +745,3 @@ a.disabled {
   text-align: left;
   font-size: 1.375rem;
 }
-
-/* COVID Protocol */
-#covid {
-  padding-bottom: 15rem;
-  padding-top: 10rem;
-}
-
-#covid .intro-subtitle {
-  font-size: 1.5rem;
-  padding-top: 0rem;
-}
