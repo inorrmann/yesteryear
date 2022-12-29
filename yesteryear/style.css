@@ -681,21 +681,21 @@ a.disabled {
   }
 }
 
-/* Vendors */
-#vendors {
+/* Past Experiences */
+#past {
   color: var(--grey);
   font-size: 2rem;
   padding: 8rem 1rem;
 }
 
 @media (min-width: 768px) {
-  #vendors {
+  #past {
     padding: 15rem 1rem;
   }
 }
 
 @media (min-width: 1064px) {
-  #vendors {
+  #past {
     font-size: 2.5rem;
     padding: 20rem 0;
   }
