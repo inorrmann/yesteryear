@@ -213,7 +213,8 @@ i.fab, i.far {
 }
 
 /* NavBar */
-#home-logo {
+#home-logo,
+#main-page-logo{
   max-height: 5rem;
 }
 
