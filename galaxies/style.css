@@ -469,9 +469,14 @@ button i.fa-bars {
   padding-top: 1rem;
 }
 
-#event-carousel {
+#event-carousel,
+#vendors-carousel {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3), 0 2px 5px 0 rgba(0, 0, 0, 0.6);
   padding-top: 10rem;
+}
+
+#vendors-carousel {
+  padding-top: 0;
 }
 
 .carousel-indicators {
@@ -495,7 +500,7 @@ button i.fa-bars {
   }
 
   .intro-bottom {
-    height: 115rem;
+    height: 160rem;
     position: relative;
     color: var(--white);
     background-color: rgba(18,16,17, 0.6)
@@ -541,6 +546,10 @@ button i.fa-bars {
     margin: 5rem 2rem 0;
   }
 
+  #vendors-carousel {
+    margin: 0 2rem;
+  }
+
   .carousel-indicators {
     display: flex;
   }
@@ -570,6 +579,10 @@ button i.fa-bars {
     margin: 5rem 10rem 0;
   }
 
+  #vendors-carousel {
+    margin: 0 10rem 0;
+  }
+
   .carousel-caption {
     bottom: 20px;
   }
@@ -584,7 +597,8 @@ button i.fa-bars {
     padding-top: 10rem;
   }
 
-  #event-carousel {
+  #event-carousel,
+  #vendors-carousel {
     margin: 5rem 20rem 0;
   }
 }
