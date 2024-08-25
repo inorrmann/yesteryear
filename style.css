@@ -139,6 +139,12 @@ i.fab, i.far {
     margin: 1rem;
 }
 
+.intro-title {
+    /*text-shadow: 1px 1px 3px var(--yellow);*/
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
 .logo-card {
     height: 100%;
 }
