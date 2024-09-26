@@ -496,7 +496,7 @@ button i.fa-bars {
 
 @media (min-width: 768px) {
   .intro {
-    height: 100rem;
+    height: 170rem;
   }
 
   .intro-bottom {
@@ -557,6 +557,10 @@ button i.fa-bars {
 }
 
 @media (min-width: 1064px) {
+  .intro {
+    height: 160rem;
+  }
+
   .intro-title {
     font-size: 4.5rem;
   }
@@ -587,6 +591,12 @@ button i.fa-bars {
 
   .carousel-caption {
     bottom: 20px;
+  }
+}
+
+@media (min-width: 1260px) {
+  .intro {
+    height: 170rem;
   }
 }
 
