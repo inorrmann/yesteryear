@@ -542,13 +542,14 @@ button i.fa-bars {
     padding-top: 1rem;
   }
 
-  #event-carousel {
+  #event-carousel,
+  #vendors-carousel {
     margin: 5rem 2rem 0;
   }
 
-  #vendors-carousel {
-    margin: 0 2rem;
-  }
+  /*#vendors-carousel {*/
+  /*  margin: 0 2rem;*/
+  /*}*/
 
   .carousel-indicators {
     display: flex;
@@ -575,13 +576,14 @@ button i.fa-bars {
     padding-top: 1rem;
   }
 
-  #event-carousel {
+  #event-carousel,
+  #vendors-carousel {
     margin: 5rem 10rem 0;
   }
 
-  #vendors-carousel {
-    margin: 0 10rem 0;
-  }
+  /*#vendors-carousel {*/
+  /*  margin: 0 10rem 0;*/
+  /*}*/
 
   .carousel-caption {
     bottom: 20px;
