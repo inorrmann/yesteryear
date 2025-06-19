@@ -472,7 +472,7 @@ button i.fa-bars {
 #event-carousel,
 #vendors-carousel {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3), 0 2px 5px 0 rgba(0, 0, 0, 0.6);
-  padding-top: 10rem;
+  /*padding-top: 10rem;*/
 }
 
 #vendors-carousel {
@@ -506,9 +506,9 @@ button i.fa-bars {
     background-color: rgba(18,16,17, 0.6)
   }
 
-  .intro-content {
-    padding: 15rem 0 0;
-  }
+  /*.intro-content {*/
+  /*  padding: 15rem 0 0;*/
+  /*}*/
 
   .intro-title {
     font-size: 4.5rem;
@@ -643,6 +643,35 @@ button i.fa-bars {
   text-align: center;
 }
 
+@media (min-width: 768px) {
+  #packages-tablet {
+    display: block;
+    margin-top: 45rem;
+  }
+
+  #packages-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 1064px) {
+  #packages {
+    margin: 25rem 0;
+  }
+
+  #packages-desktop {
+    display: block;
+  }
+
+  #packages-tablet {
+    display: none;
+  }
+
+  .porta-potty-disclaimer {
+    font-size: 0.8rem;
+  }
+}
+
 .package-card {
   height: 100%;
 }
@@ -686,34 +715,6 @@ a.disabled {
   width: 80%;
   margin: auto;
   color: var(--maroon);
-}
-
-@media (min-width: 768px) {
-  #packages-tablet {
-    display: block;
-  }
-
-  #packages-mobile {
-    display: none;
-  }
-}
-
-@media (min-width: 1064px) {
-  #packages {
-    margin: 5rem 0;
-  }
-
-  #packages-desktop {
-    display: block;
-  }
-
-  #packages-tablet {
-    display: none;
-  }
-
-  .porta-potty-disclaimer {
-    font-size: 0.8rem;
-  }
 }
 
 /* Past Experiences */
