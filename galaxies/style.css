@@ -786,3 +786,9 @@ a.disabled {
   text-align: left;
   font-size: 1.375rem;
 }
+
+a.disabled {
+  background-color: var(--very-light-grey);
+  pointer-events: none;
+  cursor: default;
+}
