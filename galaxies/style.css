@@ -506,10 +506,6 @@ button i.fa-bars {
     background-color: rgba(18,16,17, 0.6)
   }
 
-  /*.intro-content {*/
-  /*  padding: 15rem 0 0;*/
-  /*}*/
-
   .intro-title {
     font-size: 4.5rem;
   }
@@ -551,10 +547,6 @@ button i.fa-bars {
     margin: 5rem 2rem 0;
   }
 
-  /*#vendors-carousel {*/
-  /*  margin: 0 2rem;*/
-  /*}*/
-
   .carousel-indicators {
     display: flex;
   }
@@ -588,10 +580,6 @@ button i.fa-bars {
   #vendors-carousel {
     margin: 5rem 10rem 0;
   }
-
-  /*#vendors-carousel {*/
-  /*  margin: 0 10rem 0;*/
-  /*}*/
 
   .carousel-caption {
     bottom: 20px;
@@ -650,7 +638,6 @@ button i.fa-bars {
 @media (min-width: 768px) {
   #packages-tablet {
     display: block;
-    /*margin-top: 45rem;*/
   }
 
   #packages-mobile {
@@ -659,10 +646,6 @@ button i.fa-bars {
 }
 
 @media (min-width: 1064px) {
-  /*#packages {*/
-  /*  margin: 25rem 0;*/
-  /*}*/
-
   #packages-desktop {
     display: block;
   }
