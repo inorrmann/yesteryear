@@ -533,6 +533,10 @@ button i.fa-bars {
     font-size: 3rem;
   }
 
+  #event .intro-subtitle {
+    font-size: 1.75rem;
+  }
+
   #event .intro-title,
   #about .intro-title {
     font-size: 3.5rem;
@@ -558,7 +562,7 @@ button i.fa-bars {
 
 @media (min-width: 1064px) {
   .intro {
-    height: 160rem;
+    height: 150rem;
   }
 
   .intro-title {
@@ -596,7 +600,7 @@ button i.fa-bars {
 
 @media (min-width: 1260px) {
   .intro {
-    height: 170rem;
+    height: 155rem;
   }
 }
 
@@ -646,7 +650,7 @@ button i.fa-bars {
 @media (min-width: 768px) {
   #packages-tablet {
     display: block;
-    margin-top: 45rem;
+    /*margin-top: 45rem;*/
   }
 
   #packages-mobile {
@@ -655,9 +659,9 @@ button i.fa-bars {
 }
 
 @media (min-width: 1064px) {
-  #packages {
-    margin: 25rem 0;
-  }
+  /*#packages {*/
+  /*  margin: 25rem 0;*/
+  /*}*/
 
   #packages-desktop {
     display: block;
