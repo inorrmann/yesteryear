@@ -193,7 +193,11 @@ i.fab, i.far {
 
 #contact {
     background-color: var(--light-grey);
-    height: 88px;
+    height: 130px;
+}
+
+.rules {
+    color: var(--off-white);
 }
 
 .socials {

@@ -48,7 +48,6 @@ a:hover, .live:hover {
   /*padding: 8rem 0;*/
 }
 
-
 /* Title Left */
 .title-box-2 {
   margin-bottom: 3rem;
@@ -81,6 +80,10 @@ a:hover, .live:hover {
 /* Contact Us */
 #contact {
   background-color: var(--light-grey);
+}
+
+.rules {
+  color: var(--grey);
 }
 
 .socials {
