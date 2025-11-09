@@ -84,6 +84,10 @@ a:hover, .live:hover {
   background-color: var(--brown);
 }
 
+.rules {
+  color: var(--grey);
+}
+
 .socials {
   padding: 1.5rem 0;
 }
